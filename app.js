@@ -105,7 +105,7 @@ const getBakuİnfo = (name) => {
     })
     .catch(() => {
       alert("şəhərin adını düzgün yazın)");
-      cityName.innerHTML = "";
+      input.value = cityName.innerHTML;
     });
 };
 getBakuİnfo("bakı");
